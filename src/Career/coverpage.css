@@ -1,0 +1,15 @@
+.coverpage-career{
+  background: linear-gradient(
+                     rgba(2,2,2, .8),
+                     rgba(2,2,2, .8)),
+                     url('../assets/about.jpg') no-repeat center center fixed;
+                     background-size: cover;
+}
+.career-main-head{
+  height:100vh;
+}
+@media screen and (max-width: 768px) {
+  .coverpage-career {
+    background-attachment: scroll;
+  }
+}
