@@ -76,3 +76,8 @@ div.laptop-wrapper {
       height: 100%;
   }
 }
+
+.height{
+  height: 200px !important ;
+  width: 50px;
+}
