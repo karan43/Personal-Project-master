@@ -49,15 +49,6 @@
     color:white;
 }
 
-a{
-  color: white !important;
-  text-decoration: none;
-}
-a :hover{
-  color: black !important;
-  text-decoration: none;
-}
-
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
     color: black !important;
     background-color: white !important;
@@ -94,3 +85,7 @@ nav ul li.active {
       text-align: center;
   }
 }
+/* .basic-nav-dropdown{
+  text-decoration:none;
+  color: white;
+} */

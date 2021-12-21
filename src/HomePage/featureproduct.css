@@ -78,6 +78,20 @@ div.laptop-wrapper {
 }
 
 .height{
-  height: 200px !important ;
-  width: 50px;
+  height: 200px  !important;
+  width: 200px;
+}
+.team-card{
+  display: flex;
+ 
+}
+.row{
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
 }

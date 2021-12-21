@@ -63,33 +63,27 @@ export default class NavBar extends Component {
           <Navbar.Collapse>
             <Nav pullRight
               activeKey={this.state.activeKey}
-              onSelect={k => { this.handleSelect(k) }}
-            >
+              onSelect={k => { this.handleSelect(k) }}>
               <NavItem className="nav-items" id="elm" eventKey={1} componentClass={NavLink} href='/' to='/' exact={true}>HOME</NavItem>
-              <NavItem className="nav-items" eventKey={2} componentClass={NavLink} href='/aboutus' to='/aboutus' exact={true}>
-                <NavDropdown title="ABOUT US " id="basic-nav-dropdown">
-                  <MenuItem eventKey={2.1}>Mission</MenuItem>
-                  <MenuItem eventKey={2.2}>Vision</MenuItem>
-                  <MenuItem eventKey={2.3}>Goal</MenuItem>
-                </NavDropdown>
-              </NavItem>
-              <NavItem className="nav-items" eventKey={3} componentClass={NavLink} href='/product' to='/product' exact={true}>ORGANIZATION CHART</NavItem>
-              <NavItem className="nav-items" eventKey={4} componentClass={NavLink} href='/career' to='/career' exact={true}>PRESIDENT</NavItem>
-              <NavItem className="nav-items" eventKey={5} componentClass={NavLink} href='/blog' to='/blog' exact={true}>VICE-PRESIDENT</NavItem>
-              <NavItem className="nav-items" eventKey={6} componentClass={NavLink} href='/blog' to='/blog' exact={true}>
-                <NavDropdown title="ACTIVITIES" id="basic-nav-dropdown">
-                  <MenuItem eventKey={6.1}>Pradesh 1</MenuItem>
-                  <MenuItem eventKey={6.2}>Pradesh 2</MenuItem>
-                  <MenuItem eventKey={6.3}>Pradesh 3</MenuItem>
-                  <MenuItem eventKey={6.4}>Pradesh 4</MenuItem>
-                  <MenuItem eventKey={6.5}>Pradesh 5</MenuItem>
-                  <MenuItem eventKey={6.6}>Pradesh 6</MenuItem>
-                  <MenuItem eventKey={6.7}>Pradesh 7</MenuItem>
-                </NavDropdown>
-              </NavItem>
-
-              <NavItem className="nav-items" eventKey={7} componentClass={NavLink} href='/product' to='/product' exact={true}>PRESS RELEASE</NavItem>
-              <NavItem className="nav-items" eventKey={8} componentClass={NavLink} href='/career' to='/career' exact={true}>DOWNLOADS</NavItem>
+              <NavDropdown className="nav-items" noCaret title="ABOUT US " >
+                <MenuItem componentClass={NavLink} href='/aboutus' to='/aboutus' eventKey={2.1}>Mission</MenuItem>
+                <MenuItem componentClass={NavLink} href='/aboutus' to='/aboutus'eventKey={2.2}>Vision</MenuItem>
+                <MenuItem componentClass={NavLink} href='/aboutus' to='/aboutus' eventKey={2.3}>Goal</MenuItem>
+              </NavDropdown>
+              <NavItem className="nav-items" eventKey={3} componentClass={NavLink} href='/product' to='/product' exact={true}>NOTICE BOARD</NavItem>
+              <NavDropdown className="nav-items" noCaret title="ACTIVITIES" >
+                <MenuItem componentClass={NavLink} href='/blog' to='/blog' eventKey={6.1}>Pradesh-1</MenuItem>
+                <MenuItem componentClass={NavLink} href='/blog' to='/blog' eventKey={6.2}>Pradesh-2</MenuItem>
+                <MenuItem componentClass={NavLink} href='/blog' to='/blog' eventKey={6.3}>Bagmati Pradesh</MenuItem>
+                <MenuItem componentClass={NavLink} href='/blog' to='/blog' eventKey={6.4}>Gandaki Pradesh</MenuItem>
+                <MenuItem componentClass={NavLink} href='/blog' to='/blog' eventKey={6.5}>Lumbini Pradesh</MenuItem>
+                <MenuItem componentClass={NavLink} href='/blog' to='/blog' eventKey={6.6}>Karnali Pradesh</MenuItem>
+                <MenuItem componentClass={NavLink} href='/blog' to='/blog' eventKey={6.7}>Sudur Paschim Pradesh</MenuItem>
+              </NavDropdown>
+              <NavItem className="nav-items" eventKey={4} componentClass={NavLink} href='/career' to='/career' exact={true}>PHOTO GALLERY</NavItem>
+              <NavItem className="nav-items" eventKey={5} componentClass={NavLink} href='/blog' to='/blog' exact={true}>VIDEOS</NavItem>
+              <NavItem className="nav-items" eventKey={7} componentClass={NavLink} href='/blog' to='/blog' exact={true}>PRESS RELEASE</NavItem>
+              <NavItem className="nav-items" eventKey={8} componentClass={NavLink} href='/product' to='/product' exact={true}>DOWNLOADS</NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

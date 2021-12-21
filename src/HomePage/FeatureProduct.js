@@ -40,44 +40,44 @@ export default class FeatureProduct extends Component {
                   </div>
                   <div className="col-md-6">
                     <div className="row">
-                    <div className="col-lg-4 col-md-3 col-sm-3 col-xs-12">
-                      <div className="team-card "  >
-                        <img className="height" src="" alt="" />
-                        <div>
-                          <h3>name</h3>
-                          <p>top</p>
+                      <div className="col-lg-4 col-md-3 col-sm-3 col-xs-12">
+                        <div className="team-card "  >
+                          <img className="height" src="img1.jpg" alt="" />
+                          <div class="text-block">
+                            <h3>दलजित सिर्पाली</h3>
+                            <p>केन्द्रीय संयोजक</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="col-lg-4 col-md-3 col-sm-3 col-xs-12">
-                      <div className="team-card" >
-                        <img className="height" src="" alt="" />
-                        <div>
-                          <h3>name</h3>
-                          <p>top</p>
+                      <div className="col-lg-4 col-md-3 col-sm-3 col-xs-12">
+                        <div className="team-card" >
+                          <img className="height" src="img2.jpg" alt="" />
+                          <div class="text-block">
+                            <h3>सुशिला सेर्पाली ठकुरी</h3>
+                            <p>केन्द्रीय सह-संयोजक</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
                     </div>
                     <div className="row">
-                    <div className="col-lg-4 col-md-3 col-sm-3 col-xs-12">
-                      <div className="team-card" >
-                        <img className="height" src="" alt="" />
-                        <div>
-                          <h3>name</h3>
-                          <p>top</p>
+                      <div className="col-lg-4 col-md-3 col-sm-3 col-xs-12">
+                        <div className="team-card" >
+                          <img className="height" src="img3.jpg" alt="" />
+                          <div class="text-block">
+                            <h3>परशुराम रम्तेल</h3>
+                            <p>फ्र्याक्सन इन्चार्ज</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="col-lg-4 col-md-3 col-sm-3 col-xs-12">
-                      <div className="team-card" >
-                        <img className="height" src="" alt="" />
-                        <div>
-                          <h3>name</h3>
-                          <p>top</p>
+                      <div className="col-lg-4 col-md-3 col-sm-3 col-xs-12">
+                        <div className="team-card" >
+                          <img className="height" src="img4.jpg" alt="" />
+                          <div class="text-block">
+                            <h3>तेज बहादुर मिजार</h3>
+                            <p>केन्द्रीय सह-संयोजक</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
                     </div>
                   </div>
                 </div>
