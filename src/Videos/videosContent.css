@@ -1,0 +1,133 @@
+.videos-content-main {
+  background-color: #f3f3f3;
+  position: relative;
+}
+.videos-nav {
+  position: relative;
+  text-align: center;
+  border-bottom: 2px solid #eee;
+}
+
+.videos-nav > li {
+  display: inline-block;
+  margin-right: 1.5%;
+  padding: 20px 0;
+  font-size: 16px;
+  font-family: 'Roboto',sans-serif;
+}
+
+.videos-nav > li > a {
+  color: #123456;
+}
+
+.videos-nav > li > a:hover {
+  color: #76bd1d;
+}
+
+.videos-card {
+  margin: auto;
+  padding-top: 30px;
+}
+
+.videos-content {
+  margin-bottom: 30px;
+}
+
+.videos-ui-card {
+  height: 300px;
+}
+
+.videos-pos-fixed {
+  position: relative;
+  overflow: hidden;
+  width:100%;
+  height:100%;
+  text-align: justify;
+}
+
+.videos-pos-fixed > img {
+  transition: .5s ease;
+  -webkit-transition: .5s ease; /* Safari and Chrome */
+  -moz-transition: .5s ease; /* Firefox */
+  -ms-transition: .5s ease; /* IE 9 */
+  -o-transition: .5s ease; /* Opera */
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.videos-content-image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.videos-tag-div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.videos-tag{
+  padding-left: 5px;
+}
+
+.videos-tag > span, .videos-tag-1 > span {
+  color: #fff;
+  background-color: #6d9e00;
+  border-radius: 4px;
+  padding: .2em .6em .3em;
+  font-size: 80%;
+  font-weight: bold
+}
+
+.videos-tag > span:hover, .videos-tag-1 > span:hover {
+  color: #f3f3f3;
+  background-color: #000;
+}
+
+.videos-pos-fixed > h3 {
+  padding: 10px 0 10px 10px;
+  font-weight: bold;
+  text-align: center;
+  font-style: 'Roboto', sans-serif;
+  color:#123456;
+  border-bottom: 2px dashed #000;
+}
+
+.videos-pos-fixed > h3:hover {
+  color: #6d9e0c;
+}
+
+.videos-pos-fixed > p {
+  margin: 5px;
+  color: #555;
+  font-style:'Roboto Slab',serif;
+}
+
+@media screen and (min-width: 992px) {
+  .videos-content-main {
+    margin-bottom: 10px;
+    box-shadow: 0 10px 10px #060606;
+  }
+}
+div.laptop-wrapper {
+  position: relative;
+  padding-bottom:65%;
+  margin-bottom:5vh;
+  width:100%;
+  height: 0;
+}
+div.laptop-wrapper iframe {
+  box-sizing: border-box;
+  background: url("../assets/video.svg") center center no-repeat;
+  background-size: contain;
+  padding:8% 18% 13% 18.6%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -46,6 +46,9 @@ export default class NavBar extends Component {
       case menuname.startsWith('#/blog'):
         this.setState({ activeKey: 5 });
         break;
+      case menuname.startsWith('#/videos'):
+          this.setState({ activeKey: 6 });
+          break;
       default:
         this.setState({ activeKey: 1 });
     }
@@ -81,7 +84,7 @@ export default class NavBar extends Component {
                 <MenuItem componentClass={NavLink} href='/blog' to='/blog' eventKey={6.7}>Sudur Paschim Pradesh</MenuItem>
               </NavDropdown>
               <NavItem className="nav-items" eventKey={4} componentClass={NavLink} href='/career' to='/career' exact={true}>PHOTO GALLERY</NavItem>
-              <NavItem className="nav-items" eventKey={5} componentClass={NavLink} href='/blog' to='/blog' exact={true}>VIDEOS</NavItem>
+              <NavItem className="nav-items" eventKey={6} componentClass={NavLink} href='/videos' to='/videos' exact={true}>VIDEOS</NavItem>
               <NavItem className="nav-items" eventKey={7} componentClass={NavLink} href='/blog' to='/blog' exact={true}>PRESS RELEASE</NavItem>
               <NavItem className="nav-items" eventKey={8} componentClass={NavLink} href='/product' to='/product' exact={true}>DOWNLOADS</NavItem>
             </Nav>
